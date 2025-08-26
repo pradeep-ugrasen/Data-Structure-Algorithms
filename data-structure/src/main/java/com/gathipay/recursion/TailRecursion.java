@@ -1,11 +1,11 @@
-package com.cubisoft.recursion;
+package com.gathipay.recursion;
 
-public class  PrintNaturalNumberReverse {
+public class  TailRecursion {
     
     static void printNaturalNumberReverse(int num){
 
         if(num > 0){
-            System.out.print(num +",");
+            System.out.print(num +","); // this is callled tail recursion
             printNaturalNumberReverse(num-1);
         }
     }

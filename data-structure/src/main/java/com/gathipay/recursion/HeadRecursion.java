@@ -1,12 +1,12 @@
-package com.cubisoft.recursion;
+package com.gathipay.recursion;
 
-public class PrintNaturalNumber {
+public class HeadRecursion {
    
      static void printNaturalNumber(int num){
 
         if(num > 0){
-            printNaturalNumber(num-1);
-            System.out.print(num +",");
+            printNaturalNumber(num-1); 
+            System.out.print(num +",");// this is callled head recursion
         }
     }
 

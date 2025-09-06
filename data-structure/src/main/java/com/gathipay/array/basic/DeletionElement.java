@@ -1,4 +1,4 @@
-package com.gathipay.array;
+package com.gathipay.array.basic;
 
 public class DeletionElement {
     

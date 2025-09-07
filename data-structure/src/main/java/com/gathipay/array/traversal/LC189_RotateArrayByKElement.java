@@ -2,7 +2,7 @@ package com.gathipay.array.traversal;
 
 import com.gathipay.array.basic.DisplayArray;
 
-public class RotateArrayByKElement {
+public class LC189_RotateArrayByKElement {
     
     private static void reverse(int [] nums, int startIndex, int endIndex){
         while (startIndex < endIndex) {
@@ -35,8 +35,8 @@ public class RotateArrayByKElement {
 
     public static void main(String[] args) {
         int [] nums = {1,2,3,4,5,6,7};
-        RotateArrayByKElement.rotateArrayByRightKthElement(nums, 2);
+        LC189_RotateArrayByKElement.rotateArrayByRightKthElement(nums, 2);
         System.out.println();
-        RotateArrayByKElement.rotateArrayByLeftKthElement(nums, 2);
+        LC189_RotateArrayByKElement.rotateArrayByLeftKthElement(nums, 2);
     }
 }

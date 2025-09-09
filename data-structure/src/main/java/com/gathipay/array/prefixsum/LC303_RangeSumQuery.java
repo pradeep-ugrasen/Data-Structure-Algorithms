@@ -39,7 +39,6 @@ public class LC303_RangeSumQuery {
     public static void main(String[] args) {
         int nums [] = {-2, 0, 3, -5, 2, -1};
         LC303_RangeSumQuery RangeSumQuery = new LC303_RangeSumQuery(nums);
-
         System.out.println("Sum of range =>"+ RangeSumQuery.sumRange(2, 5) );
     }
 }

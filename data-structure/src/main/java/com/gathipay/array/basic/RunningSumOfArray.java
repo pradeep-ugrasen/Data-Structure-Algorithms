@@ -1,6 +1,6 @@
 package com.gathipay.array.basic;
 
-public class RunningSum {
+public class RunningSumOfArray {
 
     public static int runningSum(int [] nums){
         int result =0;
@@ -12,6 +12,6 @@ public class RunningSum {
 
     public static void main(String[] args) {
         int nums [] = {1,3,-4,5,6};
-        System.out.println("Sum Of the array :: "+ RunningSum.runningSum(nums));
+        System.out.println("Sum Of the array :: "+ RunningSumOfArray.runningSum(nums));
     }
 }

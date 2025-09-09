@@ -1,5 +1,7 @@
 package com.gathipay.array.prefixsum;
 
+import com.gathipay.array.basic.DisplayArray;
+
 public class LC303_RangeSumQuery {
 
     private  int [] prefixsum;
@@ -23,8 +25,9 @@ public class LC303_RangeSumQuery {
            nums [i] += nums[i-1]; 
         }
         this.prefixsum = nums;
+        DisplayArray.displayArray(this.prefixsum);
     }
-
+    
     public  int sumRange(int left, int right){
       if(left == 0){
          return prefixsum[right];
@@ -34,9 +37,9 @@ public class LC303_RangeSumQuery {
     }
 
     public static void main(String[] args) {
-        int nums [] = {1,2,3,4,5,6};
-        LC303_RangeSumQuery lRangeSumQuery = new LC303_RangeSumQuery(nums);
+        int nums [] = {-2, 0, 3, -5, 2, -1};
+        LC303_RangeSumQuery RangeSumQuery = new LC303_RangeSumQuery(nums);
 
-        System.out.println("Sum of range =>"+ lRangeSumQuery.sumRange(1, 2) );
+        System.out.println("Sum of range =>"+ RangeSumQuery.sumRange(2, 5) );
     }
 }

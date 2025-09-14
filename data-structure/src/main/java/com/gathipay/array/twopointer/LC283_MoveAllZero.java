@@ -2,7 +2,6 @@ package com.gathipay.array.twopointer;
 
 public class LC283_MoveAllZero {
 
-
      public static void moveZero(int [] nums){
         int count =0;
         for(int i =0; i<nums.length;i++){
@@ -41,6 +40,6 @@ public class LC283_MoveAllZero {
 
     public static void main(String[] args) {
         int [] nums = {0,1,0,3,12,0};
-        LC283_MoveAllZero.moveZero(nums);
+        LC283_MoveAllZero.moveAllZero(nums);
     }
 }
